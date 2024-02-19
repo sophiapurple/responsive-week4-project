@@ -57,6 +57,11 @@ h3 {
   padding: 30px;
   font-size: 20px;
 }
+.btn-contact:hover {
+  color: black;
+  background-color: var(--primary-color);
+  text-decoration: underline;
+}
 .btn-about {
   border: 1px solid var(--primary-color);
   color: var(--primary-color);
@@ -64,11 +69,22 @@ h3 {
   font-size: 20px;
 }
 
+.btn-about:hover {
+  border: 1px solid var(--primary-color);
+  text-decoration: underline;
+  color: var(--primary-color);
+}
+
 .btn-section-launch {
   background-color: var(--primary-color);
   padding: 20px;
   margin-top: 13px;
   font-size: 20px;
+}
+.btn-section-launch:hover {
+  border: 1px solid var(--primary-color);
+  text-decoration: underline;
+  background-color: var(--primary-color);
 }
 
 .link {

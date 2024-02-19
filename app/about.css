@@ -1,0 +1,81 @@
+:root {
+  --primary-color: rgb(108, 99, 255);
+}
+
+@media (max-width: 900px) {
+  .main-container {
+    text-align: center;
+    position: relative;
+    bottom: 230px;
+  }
+  .main-container h1 {
+    font-size: 97px;
+    line-height: 1.2;
+    font-weight: 600;
+  }
+  .main-container p {
+    font-size: 22px;
+    line-height: 40px;
+  }
+  .main-container h2 {
+    font-size: 25px;
+    font-weight: 700;
+  }
+  .main-container .btn-branding {
+    padding: 25px 32px;
+    font-size: 25px;
+    margin-bottom: 140px;
+  }
+  .main-container img {
+    width: 100%;
+  }
+}
+
+h1 {
+  font-size: 80px;
+  line-height: 90px;
+  font-weight: 700;
+}
+h2 {
+  font-size: 25px;
+  font-weight: 700;
+  margin: 30px 0;
+}
+
+img {
+  position: relative;
+  left: 35px;
+  width: 120%;
+}
+p {
+  font-size: 25px;
+  line-height: 1.5;
+  font-weight: 500;
+}
+
+.hero {
+  position: relative;
+  top: 70px;
+}
+
+.main-container {
+  margin-top: 200px;
+}
+
+.btn-branding {
+  background-color: var(--primary-color);
+  color: white;
+  border: 2px solid var(--primary-color);
+  padding: 25px 32px;
+  font-size: 25px;
+  font-weight: 600;
+  border-right: 710px;
+
+  margin: 30px 10px;
+}
+
+.btn-branding:hover {
+  color: black;
+  border: 1px solid var(--primary-color);
+  background-color: var(--primary-color);
+}
