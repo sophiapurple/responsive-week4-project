@@ -1,0 +1,53 @@
+:root {
+    --primary-color: rgb(108, 99, 255);
+  }
+  
+  @media (max-width: 900px) {
+  
+    .main-container {
+      
+      h2{
+        font-size: 20px;
+      }
+      
+    }
+    .about h1{
+      
+      text-align: center;
+      font-size: 65px;
+      line-height: 1.2;
+      font-weight: 600;
+    }
+    
+    
+  }
+
+  h2{
+    font-weight: 700;
+    font-size: 25px;
+
+    
+  }
+  p{
+    color: #6C757D;
+    font-weight: 500;
+  }
+  
+  .main-container{
+    margin: 50px;
+  }
+  img{
+    width: 30;
+  }
+  .about h1{
+    font-weight: 360px;
+    font-size: 60px;
+    text-align:left ;
+    
+  }
+  .main-container {
+    margin-top: 100px;
+  }
+  
+  
+  

@@ -1,4 +1,4 @@
-:root {
+x:root {
   --primary-color: rgb(108, 99, 255);
 }
 
@@ -6,7 +6,7 @@
   .main-container {
     text-align: center;
     position: relative;
-    bottom: 230px;
+    bottom: 180px;
   }
   .main-container h1 {
     font-size: 97px;
@@ -14,7 +14,7 @@
     font-weight: 600;
   }
   .main-container p {
-    font-size: 22px;
+    font-size: 19px;
     line-height: 40px;
   }
   .main-container h2 {
@@ -28,6 +28,8 @@
   }
   .main-container img {
     width: 100%;
+    position: relative;
+    bottom: 100px;
   }
 }
 
@@ -39,7 +41,8 @@ h1 {
 h2 {
   font-size: 25px;
   font-weight: 800;
-  margin: 30px 0;
+  margin-top: 30px;
+  margin-bottom: 35px;
 }
 
 img {
@@ -47,7 +50,7 @@ img {
   left: 35px;
   width: 120%;
 }
-p {
+.main-container p  {
   font-size: 20px;
   line-height: 1.5;
   font-weight: 500;
