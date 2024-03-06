@@ -1,0 +1,48 @@
+@media (max-width: 900px) {
+    body {
+      text-align: center;
+    }
+
+    h1{
+        font-size: 76px;
+        font-weight: 500;
+    }
+   
+    h2 {
+      font-weight: bold;
+      font-size: 25px;
+      margin-top: 20px;
+
+      }
+
+      a{
+        position: relative;
+        margin-bottom: 25px;
+        font-weight: 500;
+      }
+    }
+  
+  body{
+    margin: 100px;
+  }  
+  
+
+ 
+ h1 {
+  font-size: 86px;
+  font-weight: 500px;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 25px;
+    margin-top: 23px;
+
+    }
+
+
+a{
+    position: relative;
+    margin-bottom: 30px;
+    font-weight: 500;
+}
