@@ -1,6 +1,7 @@
 @media (max-width: 900px) {
     body {
       text-align: center;
+      
     }
 
     h1{
@@ -17,7 +18,7 @@
 
       a{
         position: relative;
-        margin-bottom: 25px;
+        margin-top: 30px;
         font-weight: 500;
       }
     }
@@ -31,6 +32,7 @@
  h1 {
   font-size: 86px;
   font-weight: 500px;
+  margin-bottom: 30px;
 }
 
 h2 {
@@ -43,6 +45,6 @@ h2 {
 
 a{
     position: relative;
-    margin-bottom: 30px;
+    margin-top: 30px;
     font-weight: 500;
 }
