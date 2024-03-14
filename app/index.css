@@ -6,12 +6,20 @@
   body {
     text-align: center;
   }
+ 
   h1 {
     font-weight: 600;
     font-size: 5px;
+    
+  
+
   }
+  
   h3 {
     font-weight: normal;
+  
+
+    
   }
 
   .sections {
@@ -30,7 +38,15 @@
   }
   li a{
     padding: 5px;
+    font-size: 11px;
+    
   }
+  .nav{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  
 }
 
 body {
@@ -41,6 +57,7 @@ h1,
 h2,
 h3 {
   margin: 0;
+  padding: 0;
 }
 h1 {
   font-size: 86px;
@@ -50,10 +67,12 @@ h2 {
   color: rgb(154, 156, 158);
   font-weight: 400px;
   font-size: 25px;
+  
 }
 h3 {
   font-size: 60px;
   font-weight: 300px;
+  margin-top: 10px;
 }
 
 .btn-contact {
@@ -123,10 +142,19 @@ li.active a{
 
 .logo{
   max-height: 40px;
+  
+
 }
 
 .nav{
- margin: 30px 60px;
+ margin: 30px;
+ display: flex;
+ justify-content: space-between;
+
+ 
+
+ 
+ 
  
 }
 
