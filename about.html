@@ -13,11 +13,28 @@
     <link rel="stylesheet" href="app/about.css" />
   </head>
   <body>
-    <div class="container">
+    <div class="container-fluid">
       <div class="main-container">
-        <div class="row">
+        <div class="nav d-flex justify-content-between">
+          <img src="images/small-logo.jpg" alt="" class="logo d-block d-md-none">
+          <img src="images/big-logo.png" alt="" class="logo d-none d-md-block">
+              
+                <ul class=" fw-bold ">
+                  <li>
+                   <a href="/">Home</a></li>
+                  <li class="active">
+                    <a href="about.html">About</a></li>
+                  <li>
+                    <a href="work.html">Work</a></li>
+                  <li>
+                    <a href="contact.html">Contact</a></li>
+                </ul>
+        </div>
+      </div>
+        <div class=" container row hero-container">
           <div class="col-lg-6 hero">
-            <h1>Hi I am Chinelo Okpala</h1>
+            <h1>Hi I am 
+            Chinelo Okpala</h1>
             <h2>Frontend Developer,based in Nigeria.</h2>
             <p>
               For anyone who wants to start learning code, this workshop is very
@@ -28,7 +45,7 @@
 
             <a href="/" class="button btn btn-branding">See my projects</a>
           </div>
-          <div class="col-lg-6">
+          <div class="col-lg-6 images">
             <img src="images/patricia.png" class="img-fluid" alt="" />
           </div>
         </div>
