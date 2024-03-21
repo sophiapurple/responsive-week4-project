@@ -6,13 +6,14 @@
     h1{
         font-size: 76px;
         font-weight: 500;
+        margin-bottom: 30px;
+        margin-top: s0px;
     }
    
     h2 {
       font-weight: bold;
       font-size: 25px;
       margin-top: 20px;
-
       }
 
       a{
@@ -20,19 +21,23 @@
         margin-top: 30px;
         font-weight: 500;
       }
+
       .logo{
         max-height: 40px;
-        margin:  0 30px;
+        position: relative;
+        padding-bottom: 3px;
+       
       }
     }
   
-  
-
- 
- h1 {
+ body{
+  margin-bottom: 60px;
+ }
+    h1 {
   font-size: 86px;
   font-weight: 500px;
   margin-bottom: 30px;
+  margin-top: 70px;
   
 }
 
@@ -40,18 +45,13 @@ h2 {
     font-weight: bold;
     font-size: 25px;
     margin-top: 23px;
-
     }
 
 
 li a{
     position: relative;
-    margin-top: 30px;
     font-weight: 500;
-    color: red;
 }
-
-
 
 li a:hover{
   color: var(--primary-color);
@@ -61,9 +61,7 @@ li a:hover{
   text-align: center;
 }
 .link a{
-  color: black;
-  
-  
+  color: black;  
 }
 
 .link :hover,.active a{
@@ -71,11 +69,10 @@ li a:hover{
   transition: all 100ms ease-in-out;
 }
 
-
 .logos{
   max-height: 60px;
-  margin:  0 30px;
 }
+
 .yoga{
   max-height: 40px;
   margin: 20px 40px;
