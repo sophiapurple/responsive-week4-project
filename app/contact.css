@@ -1,15 +1,21 @@
+
 :root{
   --primary-color:rgb(108, 99, 255)
 }
 
 @media (max-width: 900px) {
-    h1{
-        font-size: 76px;
+  
+  body .main{
+    position: relative;
+    top:30px;
+    text-align: center;   
+  }  
+  .main h1{
+        font-size: 86px;
         font-weight: 500;
-        margin-bottom: 30px;
-        margin-top: s0px;
+        margin-top: 50px; 
     }
-   
+
     h2 {
       font-weight: bold;
       font-size: 25px;
@@ -17,27 +23,28 @@
       }
 
       a{
-        position: relative;
-        margin-top: 30px;
-        font-weight: 500;
+        font-size: 15px;
+    
+      } 
       }
-
+      
+      
       .logo{
         max-height: 40px;
         position: relative;
         padding-bottom: 3px;
        
       }
-    }
-  
+    
  body{
   margin-bottom: 60px;
+  
  }
     h1 {
   font-size: 86px;
   font-weight: 500px;
   margin-bottom: 30px;
-  margin-top: 70px;
+  margin-top: 80px;
   
 }
 
@@ -47,30 +54,42 @@ h2 {
     margin-top: 23px;
     }
 
+    .logos{
+      max-height: 60px;
+    }
 
-li a{
+ .main a{
     position: relative;
     font-weight: 500;
+    color:var(--primary-color) ;
 }
 
-li a:hover{
-  color: var(--primary-color);
-}
-
-.main{
-  text-align: center;
-}
-.link a{
-  color: black;  
-}
-
-.link :hover,.active a{
-  color: var(--primary-color);
+.main a:hover{
+  text-decoration: none;
+  font-size:20px ;
   transition: all 100ms ease-in-out;
 }
 
-.logos{
-  max-height: 60px;
+.main a:visited{
+  color: blueviolet;
+}
+
+.main{
+  text-align: left;
+}
+
+.navbar li:hover a{
+text-decoration: none;
+color:var(--primary-color);
+transition: all 100ms ease-in-out;
+}
+
+.navbar a{
+color: black;  
+} 
+
+.navbar .active a{
+  color: var(--primary-color);
 }
 
 .yoga{

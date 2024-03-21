@@ -3,78 +3,103 @@
   }
   
   @media (max-width: 900px) {
-  
-    
-     .work h2{
+
+    h1{
+      font-size: 65px;
+      font-weight: 600;
+      line-height: 1.2;
+      text-align: center;
+      
+    }
+
+    h2{
         font-size: 20px;
       }
     
-    .work h1{
-      text-align: center;
-      font-size: 65px;
-      line-height: 1.2;
-      font-weight: 600;
+    .logo{
+      max-height: 60px;
     }
+
+    .resized-app{
+      width: 310px;
+      
+    }
+
+}
+
+
+ 
+  h1{
+    font-weight: 360px;
+    font-size: 60px;
+    margin-top:80px ;
+    text-align:left ;
+    
   }
 
- .work h2{
+  h2{
     font-weight: 700;
     font-size: 25px;
   }
-  .work p{
+   
+  p{
     color: #6C757D;
     font-weight: 500;
   }
   
-  .main-container{
-    margin: 50px;
-  }
- .work img{
+  .images img{
     width: 30;
   }
-  .about h1{
-    font-weight: 360px;
-    font-size: 60px;
-    text-align:left ;
-    
-  }
-  .main-container {
-    margin-top: 100px;
-  }
-   .resized-app{
-    width: 470px;
-    
 
-  }
 
-  .work h2{
-    font-weight: 700;
-    font-size: 25px;
-  }
-  .work p{
-    color: #6C757D;
+  li a{
+    position: relative;
     font-weight: 500;
-  }
-  
-  .main-container{
-    margin: 50px;
-  }
- .work img{
-    width: 30;
-  }
-  .about h1{
-    font-weight: 360px;
-    font-size: 60px;
-    text-align:left ;
     
-  }
-  
-   .resized-app{
-    width: 470px;
     
+}
 
+li a:hover{
+  color: var(--primary-color);
+}
+
+.link a{
+  color: black;  
+}
+ 
+.link a{
+  color: black;  
+}
+
+.link :hover,.active a{
+  color: var(--primary-color);
+  transition: all 100ms ease-in-out;
+}
+  .logos{
+    max-height: 60px;
   }
+
+  .main-container{
+    margin: 20px;
+  }
+
+  .resized-app{
+    width: 310px;
+    
+  }
+
+
   
+
+
+   
+
+
+
+  
+   
+  
+   
   
   
   
