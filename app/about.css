@@ -5,7 +5,7 @@
 @media (max-width: 900px) {
  body{
   text-align: center;
-  margin-bottom: 50px;
+  margin-bottom: 100px;
  }
   .hero h1 {
     font-size: 60px;
@@ -60,6 +60,7 @@
   body{
     margin-bottom: 60px;
     margin-top: 20px;
+    text-align: center;
   }
 
 .hero h1 {
@@ -103,10 +104,7 @@ p{
   transition: all 100ms ease-in-out;
 }
 
-.hero{
-  padding-left: 50px;
-  
-}
+
 
 .hero-container {
   position: relative;
