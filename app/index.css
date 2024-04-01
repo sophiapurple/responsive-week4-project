@@ -1,5 +1,6 @@
 :root {
   --primary-color: rgb(108, 99, 255);
+  --secondary-color:#F9F7FE;
 }
 
 @media (max-width: 900px) {
@@ -7,7 +8,7 @@
     text-align: center;
   }
 
- .hero h1,h2,h3{
+ .hero h1,h2,h3,h4{
     margin: 0;
     padding: 0;
     max-height: 1.5;
@@ -32,6 +33,16 @@
     font-weight: 500;
   }
 
+   .section p{
+    font-weight: lighter;
+    font-size: 100px;
+  }
+
+  .sections .section-heading{
+    font-size: 50px;
+    font-weight: bold;
+  }
+
 }
  
 
@@ -39,7 +50,7 @@
  @media(max-width:500px){
 
   body .hero{
-    padding: 40px ;
+    padding: 50px ;
   }
 
   li,a{
@@ -54,9 +65,13 @@
     text-align: center;
   }
 
-  .sections p {
+   section p {
     font-size: 15px;
     line-height: 1.7;
+    font-weight: 200;
+    
+    
+    
   }
   .btn-section-launch {
     width: 90%;
@@ -86,10 +101,10 @@
 body {
   background-color: #fff;
   text-align: center;
+  
+ 
 }
-.main-container{
-  text-align: center;
-}
+
   
 h1,
 h2,
@@ -150,11 +165,55 @@ h3 {
   background-color: var(--primary-color);
 }
 
+.contact-box{
+  background-color: var(--secondary-color);
+  margin: 170px 20px 0 100px;
+  padding:40px 70px;
+}
+
+.contact-box h4{
+  font-size: 60px;
+  font-weight: bold;
+}
+.contact-box .btn-contact-us{
+  background-color: var(--secondary-color);
+  color:var(--primary-color);
+  border: 2px solid var(--primary-color);
+  margin: 30px  30px 70px;
+  padding: 16px 34px;
+  border-radius: 6px;
+  font-size: 27px;
+  font-weight: bold;
+} 
+
+.contact-box .btn-contact-us:hover{
+  border: 2px solid black;
+  color: black;
+  text-decoration: underline;
+  transition: all 100ms ease-in-out;
+ 
+}
+.contact-box p{
+  font-size: 24px;
+  color:#6C757D;
+  text-align: left;
+}
+
+.footer {
+  position: relative;
+  bottom: 100px;
+  
+}
+
 .hero{
-  background-color:#F9F7FE ;
-  padding: 90px 2px;
+  background-color:var(--secondary-color) ;
+  padding: 150px 2px;
   
-  
+}
+
+img{
+  max-height: 180%;
+  max-width: 250%;
 }
 
 .link {
@@ -185,7 +244,17 @@ li.active a{
 
 .main-container{
   text-align: center;
+  
 }
+  .mail-link {
+  font-size: 30px;
+  margin: 50px 50px;
+ }
+
+ .mail-link:hover a{
+  text-decoration: underline;
+  color: var(--primary-color);
+ }
 
 .nav{
  padding: 30px  0;
@@ -193,21 +262,48 @@ li.active a{
  justify-content: space-between;
  
 }
+ .row{
+  margin-top: 200px;
+}
 
 .sections {
   position: relative;
   top: 30px;
   padding-right: 10px;
+  margin-top: 50px;
+}
+.sections{
+  text-align: left;
 }
 .section-heading {
-  font-size: 50px;
+  font-size: 100px;
+ 
+  
+
 }
 .sections p {
-  font-size: 17px;
-  line-height: 1.5;
+  font-size: 25px;
+  line-height: 1.7;
+  font-weight: normal;
+  margin-top: 40px;
+  
 }
 
-.yoga-img{
-  position: relative;
-  top: 30px;
-}
+.social-links {
+  margin-bottom: 10px 200px 0 0 ;
+  }
+  
+  .social-links a{
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    font-size: 25px;
+    border-radius: 50%;
+    margin:30px;
+    padding: 20px;
+  }
+  
+  .social-links a:hover{
+    background-color: var(--primary-color);
+    color: white;
+  }
+

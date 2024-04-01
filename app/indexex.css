@@ -1,0 +1,283 @@
+:root {
+    --primary-color: rgb(108, 99, 255);
+    --secondary-color:#F9F7FE ;
+  }
+  
+  @media (max-width: 900px) {
+  body .main-container
+  {text-align: center;}
+    
+  body .hero{
+      padding: 60px;
+    
+    }
+   .hero h1,h2,h3{
+      margin: 0;
+      padding: 0;
+      max-height: 1.5;
+    }
+   .hero  h1 {
+      font-weight: bolder;
+      font-size: 70px;
+      
+    }
+   .hero h3 {
+      font-weight: bolder;
+      font-size: 40px;
+      margin-top:10px ;
+     }
+   
+    li,a{
+      padding-left: 2px;
+      font-size: 20px;
+      line-height: 1px;
+      font-weight: 500;
+    }
+  
+  
+  }
+   
+  
+   
+   @media(max-width:500px){
+  
+    
+  
+    li,a{
+      font-size: 9px;
+      line-height: 2px;
+      
+    }
+  
+  .link{
+    padding: 209px;
+  }
+   .sections {
+      text-align: center;
+    }
+  
+    .sections p {
+      font-size: 15px;
+      line-height: 1.7;
+    }
+    .btn-section-launch {
+      width: 90%;
+      font-size: 25px;
+      margin: 35px;
+      text-align: center;
+    }
+   
+    .hero h1{
+      font-size: 30px;
+      font-weight: bolder;
+    }
+  
+  .hero h2{
+    font-weight: 400;
+    font-size: 18px;
+    
+  }
+  .hero h3{
+    padding: 10px;
+    font-size: 25px;
+  }
+  
+  .nav a{
+    font-size: 15px;
+  }
+  .nav .logo{
+    max-height: 30px;
+  }
+  
+  }
+  
+  
+  
+  
+  .body{
+    text-align: center;
+    background-color: #fff;
+    
+  }
+    
+  h1,
+  h2,
+  h3 {
+    margin: 0;
+    padding: 0;
+  }
+  h1 {
+    font-size: 96px;
+    font-weight: 500px;
+    margin: 15px;
+    font-weight: bolder;
+    
+  }
+  h2 {
+    font-weight: 500px;
+    font-size: 25px;
+    margin: 15px;
+  }
+  
+  h3 {
+    font-size: 60px;
+    font-weight: 300px;
+    font-weight: bold;
+  }
+  
+  .btn-contact {
+    background-color: var(--primary-color);
+    padding: 30px;
+    font-size: 20px;
+  }
+  .btn-contact:hover {
+    color: black;
+    background-color: var(--primary-color);
+    text-decoration: underline;
+  }
+  .btn-about {
+    border: 1px solid var(--primary-color);
+    color: var(--primary-color);
+    padding: 30px;
+    font-size: 20px;
+  }
+  
+  .btn-about:hover {
+    border: 1px solid var(--primary-color);
+    text-decoration: underline;
+    color: var(--primary-color);
+  }
+  
+  .btn-section-launch {
+    background-color: var(--primary-color);
+    padding: 20px;
+    margin-top: 13px;
+    font-size: 20px;
+  }
+  .btn-section-launch:hover {
+    border: 1px solid var(--primary-color);
+    text-decoration: underline;
+    background-color: var(--primary-color);
+  }
+  
+  .container-app-section img{
+    width: 200%;
+  
+  }
+  
+  .contact-box{
+    background-color:var(--secondary-color);
+    margin: 60px 0;
+    padding: 0 30px;
+  }
+  
+  .contact-box h4{
+    font-size: 80px;
+    font-weight: 500;
+    padding: 10px 20px;
+  }
+  
+  
+  .hero{
+    background-color:var(--secondary-color);
+    padding: 290px 0;
+    
+    
+    
+  }
+  
+  .link {
+    margin: 60px;
+    padding: 15px;
+    }
+  
+    
+    li,a{
+    display: inline;
+    text-decoration: none;
+    padding-left: 10px;
+    color: black; 
+    font-size: 15px; 
+  }
+  
+  li:hover a {
+    transition: all 100ms ease-in-out;
+    color: var(--primary-color);
+  }
+  
+  li.active a{
+    color: var(--primary-color);
+  }
+  
+  .logo{
+    max-height: 40px;
+  }
+  
+  .main-container{
+    text-align: center;
+  }
+  
+  .nav{
+   padding: 30px  0;
+   display: flex;
+   justify-content: space-between;
+   
+  }
+  
+  .sections {
+    position: relative;
+    top: 20px;
+    padding-right: 10px;
+    
+  }
+  .section-heading {
+    font-size: 70px;
+    font-weight: bold;
+    margin: 100px;
+    text-align: left;
+  }
+  .sections p {
+    font-size: 25px;
+    line-height: 1.5;
+   
+  }
+  
+  .row{
+    margin-top: 150px;
+  }
+  
+  .social-links {
+  margin-bottom:200px ;
+  }
+  
+  .social-links a{
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    font-size: 25px;
+    border-radius: 50%;
+    margin:30px;
+    padding: 20px;
+  }
+  
+  .social-links a:hover{
+    background-color: var(--primary-color);
+    color: white;
+  }
+  
+  
+  .yoga-img{
+    position: relative;
+    top: 30px;
+    
+    
+  }.contact-box .btn-contact-us:hover{
+    border: 2px solid black;
+    color: black;
+    text-decoration: underline;
+    transition: all 100ms ease-in-out;
+   
+  }
+  .contact-box p{
+    font-size: 24px;
+    color:#6C757D
+  }
