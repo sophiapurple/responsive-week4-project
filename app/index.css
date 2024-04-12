@@ -27,17 +27,11 @@
       margin-bottom: 35px;
     }
 
-  
-  .footer-contact  a{
-    position: relative;
-    top: 55px;
-    font-size: 15px;
-   }
-    .footer-contact .social-links{
+    .footer .social-links a{
       position: relative;
-      top: 140px;
-      bottom: 8px;
-      
+      top: 190px;
+      font-size: 13px;
+      margin: 5px;
       
   }
 
@@ -64,17 +58,19 @@
     margin-top:10px ;
    }
  
+
   .main-container .nav li a{
     
     font-size: 11px;
-    line-height: 1.9px;
+    line-height: 1.7px;
     font-weight: 700;
   }
 
   .main-container .nav .logo{
     position: relative;
      right: 40px;
-
+     line-height: 1.7px;
+     
   }
 
   .sections .btn-section-Launch a{
@@ -134,7 +130,10 @@
   
 }
 
- 
+.main-container .nav{
+  padding: 14px;
+  font-size: 12px;
+  }
 .hero h3{
   padding: 10px;
   font-size: 25px;
@@ -269,17 +268,16 @@ img{
 
 
   .nav li a{
-    font-size: 15px;
+    font-size: 18px;
+    padding-right: 7px;
     font-weight:600 ;
   }
-   li, a{
-  display: inline;
-  text-decoration: none;
-  padding-left: 7px;
-  color: black;  
-  
-  
-}
+  li,a{
+    display: inline;
+    text-decoration: none;
+    padding-left: 5px;
+    color: black;  
+  }
 
 li:hover a {
   transition: all 100ms ease-in-out;
@@ -343,17 +341,12 @@ li.active a{
   font-size: 75px;
   text-align: center;
   margin-top: 15px;
- 
-  
-
 }
 .sections p {
   font-size: 23px;
   line-height: 1.6;
   font-weight: normal;
   margin-top: 40px;
-  ;
-  
 }
 
 .social-links {
