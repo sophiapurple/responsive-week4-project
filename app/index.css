@@ -64,12 +64,15 @@
     font-size: 11px;
     line-height: 1.7px;
     font-weight: 700;
+    
   }
 
   .main-container .nav .logo{
     position: relative;
      right: 40px;
-     line-height: 1.7px;
+     bottom: 10px;
+    
+     
      
   }
 
