@@ -8,15 +8,37 @@
   body{
     text-align: center;
   }
+
+  .link .btn-about {
+    border: 1px solid var(--primary-color);
+    color: var(--primary-color);
+    padding: 20px ;
+    font-size: 15px;
+  }
+
+ .link .btn-contact {
+    background-color: var(--primary-color);
+    padding: 20px;
+    
+    font-size: 15px;
+  }
+
+  .main-container .nav{
+    padding: 14px;
+    font-size: 12px;
+    }
+
   .container-app-section .sections{
-    margin: 10px 5px;
+    
     text-align: center;
-    margin-bottom: 5px;
+    margin-top: 10px;
+    
   }
   
   .container-app-section .section-heading {
     font-size: 50px;
     font-weight: bold;
+    
   }
   
       .container-app-section .sections p{
@@ -42,6 +64,9 @@
   
   }
   
+  .main-container .hero{
+   padding: 100px 10px;
+  }
  .hero h1,h2,h3,h4{
     margin: 0;
     padding: 0;
@@ -49,18 +74,26 @@
   }
  .hero  h1 {
     font-weight: bolder;
-    font-size: 70px;
+    font-size: 90px;
     
   }
+
+  .hero h2{
+    font-size: 24px;
+    font-weight: normal;
+  }
  .hero h3 {
-    font-weight: bolder;
-    font-size: 40px;
+    
+    font-size: 50px;
     margin-top:10px ;
    }
  
+   .main-container .link {
+    margin: 40px;
+    padding: 15px;
+    }
 
   .main-container .nav li a{
-    
     font-size: 11px;
     line-height: 1.7px;
     font-weight: 700;
@@ -71,20 +104,21 @@
     position: relative;
      right: 40px;
      bottom: 10px;
-    
-     
-     
   }
 
-  .sections .btn-section-Launch a{
-   display: block;
-    text-align: center;
-    
-    
-    
-    
+  .main-container .nav{
+    margin: 10px;
+
   }
 
+  .container-app-section .sections .btn-section-Launch {
+    background-color: white;
+    color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+    padding: 20px;
+    margin-top: 20px;
+    font-size: 15px;
+  }
  
 }
 
@@ -102,9 +136,6 @@
     line-height: 2px;
   }
 
-.link{
-  padding: 209px;
-}
  .sections {
     text-align: center;
   }
@@ -114,32 +145,27 @@
     line-height: 1.7;
     font-weight: 200;
   }
-  .btn-section-launch {
-   
-    font-size: 25px;
-  
-   
-    
-  }
- 
+
   .hero h1{
-    font-size: 30px;
+    font-size: 50px;
     font-weight: bolder;
   }
 
 .hero h2{
-  font-weight: 400;
+  font-weight: 500;
   font-size: 18px;
   
 }
 
-.main-container .nav{
-  padding: 14px;
-  font-size: 12px;
-  }
+
 .hero h3{
   padding: 10px;
   font-size: 25px;
+  font-weight: bold;
+}
+.nav .logo{
+  position: relative;
+  left: 5px;
 }
 }
 
@@ -159,7 +185,7 @@ h3 {
 }
 h1 {
   font-size: 86px;
-  font-weight: 500px;
+  font-weight: bolder;
   margin: 15px;
   
 }
@@ -197,8 +223,6 @@ h3 {
   text-decoration: underline;
   color: var(--primary-color);
 }
-
-
 
 .container-app-section{
   margin: 0 40px;
@@ -254,9 +278,6 @@ h3 {
 .hero{
   background-color:var(--secondary-color) ;
   padding: 210px 2px;
-  
-  
-  
 }
 
 img{
@@ -309,7 +330,8 @@ li.active a{
 .nav{
   display: flex;
   justify-content: space-between;
-  margin:15px;
+  margin: 25px 15px 15px 15px;
+  
 }
 
 .row{
