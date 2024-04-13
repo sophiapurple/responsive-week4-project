@@ -19,7 +19,6 @@
  .link .btn-contact {
     background-color: var(--primary-color);
     padding: 20px;
-    
     font-size: 15px;
   }
 
@@ -28,6 +27,18 @@
     font-size: 12px;
     }
 
+    .container-app-section .sections .btn-section-Launch {
+      background-color: white;
+      color: var(--primary-color);
+      border: 1px solid var(--primary-color);
+      padding: 20px;
+      margin-top: 20px;
+      font-size: 15px;
+    }
+
+    .container-app-section .row{
+      margin-top: 35px;
+    }
   .container-app-section .sections{
     
     text-align: center;
@@ -41,7 +52,7 @@
     
   }
   
-      .container-app-section .sections p{
+  .container-app-section .sections p{
       font-weight: lighter;
       font-size: 20px;
       font-weight: 400;
@@ -57,10 +68,10 @@
       
   }
 
-  .footer .mail-link a{
-    font-size: 20px;
-  position: relative;
-   top: 150px;
+     .footer .mail-link a{
+     font-size: 20px;
+     position: relative;
+     top: 150px;
   
   }
   
@@ -75,6 +86,7 @@
  .hero  h1 {
     font-weight: bolder;
     font-size: 90px;
+   
     
   }
 
@@ -110,16 +122,6 @@
     margin: 10px;
 
   }
-
-  .container-app-section .sections .btn-section-Launch {
-    background-color: white;
-    color: var(--primary-color);
-    border: 1px solid var(--primary-color);
-    padding: 20px;
-    margin-top: 20px;
-    font-size: 15px;
-  }
- 
 }
 
  
@@ -131,42 +133,42 @@
     padding: 50px ;
   }
 
-  li,a{
-    font-size: 9px;
-    line-height: 2px;
-  }
-
- .sections {
-    text-align: center;
-  }
-
-   section p {
-    font-size: 15px;
-    line-height: 1.7;
-    font-weight: 200;
-  }
-
   .hero h1{
-    font-size: 50px;
+    font-size: 48px;
     font-weight: bolder;
   }
 
 .hero h2{
   font-weight: 500;
-  font-size: 18px;
-  
+  font-size: 18px;  
 }
-
 
 .hero h3{
   padding: 10px;
   font-size: 25px;
   font-weight: bold;
 }
+
+li,a{
+  font-size: 9px;
+  line-height: 2px;
+}
+
 .nav .logo{
   position: relative;
-  left: 5px;
+  left: 1px;
 }
+
+.sections {
+  text-align: center;
+}
+
+section p {
+  font-size: 15px;
+  line-height: 1.7;
+  font-weight: 200;
+}
+
 }
 
 
@@ -179,7 +181,10 @@ body {
   
 h1,
 h2,
-h3 {
+h3,
+
+li 
+{
   margin: 0;
   padding: 0;
 }
@@ -293,13 +298,13 @@ img{
 
   .nav li a{
     font-size: 18px;
-    padding-right: 7px;
+    padding-right: px;
     font-weight:600 ;
   }
   li,a{
     display: inline;
     text-decoration: none;
-    padding-left: 5px;
+    padding-left:9px;
     color: black;  
   }
 
@@ -330,7 +335,7 @@ li.active a{
 .nav{
   display: flex;
   justify-content: space-between;
-  margin: 25px 15px 15px 15px;
+  margin: 25px 15px 5px 15px;
   
 }
 
