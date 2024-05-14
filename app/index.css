@@ -86,8 +86,6 @@
  .hero  h1 {
     font-weight: bolder;
     font-size: 90px;
-   
-    
   }
 
   .hero h2{
@@ -182,7 +180,8 @@ body {
 h1,
 h2,
 h3,
-
+h4,
+h5,
 li 
 {
   margin: 0;
@@ -205,7 +204,22 @@ h3 {
   font-weight: 300px;
   
 }
+h5 {
+  position: relative;
+  top: 250px;
+  padding-bottom: 100px;
+}
+.git-link a{
+  color: var(--primary-color);
+  text-decoration: underline;
+  font-size: 20px;
+  
 
+}
+.git-link{
+  position: relative;
+  top: 30px;
+}
 .btn-contact {
   background-color: var(--primary-color);
   padding: 30px;
@@ -236,9 +250,7 @@ h3 {
 .contact-box{
   background-color: var(--secondary-color);
   margin: 270px 150px 40px 190px;
-  padding: 20px 40px;
-
-   
+  padding:  40px; 
 }
 
 .contact-box h4{
