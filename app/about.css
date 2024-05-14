@@ -122,8 +122,7 @@
       padding: 14px;
       font-size: 12px;
       }
-       
-      
+         
     }
   
   
@@ -140,27 +139,21 @@
   font-size: 77px;
   font-weight: bold; 
   text-align: left;
-  
-   
 }
-
-
 
 h2 {
   font-size: 25px;
   font-weight:700;
   margin: 35px 0 35px 0;
   line-height: 10px;
-  text-align: left;
-  
+  text-align: left; 
 }
 
 p{
   font-weight: 600;
   font-size: 20px;
   line-height: 1.5;
-  text-align: left;
-  
+  text-align: left;  
 }
 
 .btn-branding {
@@ -183,7 +176,7 @@ p{
 .contact-box{
   background-color: var(--secondary-color);
   margin: 150px 150px 40px 190px;
-  padding: 20px 40px;
+  padding: 40px;
 }
 
 .contact-box h4{
@@ -210,7 +203,6 @@ p{
   color: black;
   text-decoration: underline;
   transition: all 100ms ease-in-out;
- 
 }
 
 .contact-box p{
@@ -229,6 +221,18 @@ p{
 
 .hero{
   text-align: left;
+}
+
+.open-sourced{
+  position: relative;
+  top: 120px;
+}
+
+.open-sourced a{
+  color: var(--primary-color);
+  text-decoration: underline;
+  font-size: 20px;
+  
 }
 
 .hero-container {
@@ -272,11 +276,9 @@ li.active a{
  .mail-link:hover a{
   color: var(--primary-color);
   text-decoration: underline;
-  
-  
+
  }
 .nav{
-  
   padding: 10px  60px;
   margin-bottom: 60px;
  
@@ -285,9 +287,9 @@ li.active a{
 .social-links a{
   background-color: var(--secondary-color);
   color: var(--primary-color);
-  font-size: 25px;
+  font-size: 18px;
   border-radius: 50%;
-  margin:30px;
+ 
   position: relative;
   top: 60px;
   padding: 20px;

@@ -1,5 +1,6 @@
 :root {
     --primary-color: rgb(108, 99, 255);
+    --secondary-color:#F9F7FE;
   }
   
   @media (max-width: 900px) {
@@ -46,7 +47,69 @@
     color: #6C757D;
     font-weight: 500;
   }
+
+  .contact-box{
+    background-color: var(--secondary-color);
+    margin: 300px 150px 40px 150px;
+    padding: 40px 20px;
+  }
   
+  .contact-box h4{
+    font-size: 35px;
+    font-weight: bolder;
+    margin: 20px 3px 5px 70px;
+  }
+
+  
+  .contact-box .btn-contact-us{
+    background-color: var(--secondary-color);
+    color:var(--primary-color);
+    border: 2px solid var(--primary-color);
+    padding: 16px 24px;
+    margin-right: 90px;
+    margin-top: 30px;
+    border-radius: 6px;
+    font-size: 20px;
+    font-weight: bold;
+  } 
+  
+  .contact-box .btn-contact-us:hover{
+    border: 2px solid black;
+    color: black;
+    text-decoration: underline;
+    transition: all 100ms ease-in-out;
+   
+  }
+  
+  .contact-box p{
+    font-size: 20px;
+    color:#6C757D;
+    text-align: left;
+    margin-left: 70px;
+  }
+
+  .footer {
+    position: relative;
+    bottom: 30px;
+    padding-bottom: 40px;
+    
+  }
+
+  .open-sourced{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 100px;
+    
+
+  }
+  
+  .open-sourced a{
+    color: var(--primary-color);
+    text-decoration: underline;
+    font-size: 20px;
+    
+  }
+ 
   .images img{
     width: 30;
   }
@@ -56,7 +119,7 @@
     position: relative;
     font-weight: 500;
     
-    
+      
 }
 
 li a:hover{
@@ -67,15 +130,13 @@ li a:hover{
   color: black;  
 }
  
-.link a{
-  color: black;  
-}
 
 .link :hover,.active a{
   color: var(--primary-color);
   transition: all 100ms ease-in-out;
 }
-  .logos{
+ 
+.logos{
     max-height: 60px;
   }
 
@@ -83,17 +144,50 @@ li a:hover{
     margin: 20px;
   }
 
+  .mail-link a {
+    font-size: 25px;
+    margin:  60px 50px  50px 50px;
+   }
+  
+   .mail-link:hover a{
+    color: var(--primary-color);
+    text-decoration: underline;
+  
+   }
+
   .resized-app{
     width: 310px;
     
   }
 
-
+  .social-links{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 40px;
+  }
+ 
+  .social-links a{
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    font-size: 18px;
+    border-radius: 50%;
+    margin:30px;
+    position: relative;
+    top: 60px;
+    padding: 20px;
+  }
+  
+  .social-links a:hover{
+    background-color: var(--primary-color);
+    color: white;
+  }
   
 
 
    
 
+  
 
 
   

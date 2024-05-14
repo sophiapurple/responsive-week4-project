@@ -1,6 +1,7 @@
 
 :root{
-  --primary-color:rgb(108, 99, 255)
+  --primary-color:rgb(108, 99, 255);
+  --secondary-color:#F9F7FE;
 }
 
 @media (max-width: 900px) {
@@ -14,6 +15,7 @@
         font-size: 86px;
         font-weight: 500;
         margin-top: 50px; 
+        padding: 2px;
     }
 
     h2 {
@@ -26,15 +28,17 @@
         font-size: 15px;
     
       } 
-      }
-      
-      
-      .logo{
-        max-height: 40px;
-        position: relative;
-        padding-bottom: 3px;
-       
-      }
+
+     .footer .social-links{
+      position: relative;
+      top: 30px;
+     }
+     .open-sourced{
+      position: relative;
+      top: 20px;
+     }
+    }
+     
     
  body{
   margin-bottom: 60px;
@@ -47,11 +51,85 @@
   margin-top: 80px;
   
 }
-
+.logo{
+  max-height: 40px;
+  position: relative;
+  padding-bottom: 3px;
+ 
+}
 h2 {
     font-weight: bold;
     font-size: 25px;
     margin-top: 23px;
+    }
+
+    .contact{
+      font-weight: bolder;
+      font-size: 30px;
+    }
+    .contact-wrapper a{
+      font-size: 20px;
+    }
+  
+    .contact-box{
+      background-color: var(--secondary-color);
+      margin: 150px 20px 10px 20px;
+      padding: 40px;
+    }
+    
+    
+    .contact-box h4{
+      font-size: 35px;
+      font-weight: bolder;
+      margin: 20px 3px 5px 70px;
+    }
+    
+    .contact-box .btn-contact-us{
+      background-color: var(--secondary-color);
+      color:var(--primary-color);
+      border: 2px solid var(--primary-color);
+      padding: 16px 24px;
+      margin-right: 90px;
+      margin-top: 30px;
+      border-radius: 6px;
+      font-size: 20px;
+      font-weight: bold;
+    } 
+    
+    .contact-box .btn-contact-us:hover{
+      border: 2px solid black;
+      color: black;
+      text-decoration: underline;
+      transition: all 100ms ease-in-out;
+     
+    }
+    
+    .contact-box p{
+      font-size: 20px;
+      color:#6C757D;
+      text-align: left;
+      margin-left: 70px;
+    }
+  
+    .footer {
+      position: relative;
+      bottom: 30px;
+      padding-bottom: 40px;
+      
+    }
+  
+    .open-sourced{
+      display: flex;
+      justify-content: center;
+      padding-bottom: 100px;
+  
+    }
+    
+    .open-sourced a{
+      color: var(--primary-color);
+      text-decoration: underline;
+      font-size: 20px;
+      
     }
 
     .logos{
@@ -71,12 +149,13 @@ h2 {
 }
 
 .main a:visited{
-  color: blueviolet;
+  color: purple;
 }
 
 .main{
   text-align: left;
 }
+
 
 .navbar li:hover a{
 text-decoration: none;
@@ -92,6 +171,28 @@ color: black;
   color: var(--primary-color);
 }
 
+.social-links{
+  display: flex;
+  justify-content: center;
+  position: relative;
+  bottom: 40px;
+}
+
+.social-links a{
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+  font-size: 18px;
+  border-radius: 50%;
+  margin:30px;
+  position: relative;
+  top: 60px;
+  padding: 20px;
+}
+
+.social-links a:hover{
+  background-color: var(--primary-color);
+  color: white;
+}
 .yoga{
   max-height: 40px;
   margin: 20px 40px;
